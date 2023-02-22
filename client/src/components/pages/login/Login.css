@@ -1,0 +1,50 @@
+.body{
+    height: 100%;
+    width: 100%;
+}
+
+.login-container{
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    display: flex;
+    height: 650px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    left: 25%;
+    top: 13%;
+}
+
+.login-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(login-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.login-form{
+    width: 70%;
+    height: 100%;
+}
+
+.uname{
+    left: 70%;
+}
+
+.pwd{
+    left: 70%;
+}
+
+h1{
+    color: black;
+    top: 20%;
+    right: 40%;
+    position: absolute;
+}
+

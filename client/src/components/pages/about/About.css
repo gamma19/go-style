@@ -1,0 +1,44 @@
+.about-container{
+    width: 85%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    float: left;
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgb(255, 0, 0);
+    border-image:linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+    
+    text-align: center;
+}
+
+.h5-about{
+    color: black;
+    padding-left: 38%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    font-weight: 500;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.card{
+    width: 20%;
+    height: 40%;
+    border-radius: 10%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
