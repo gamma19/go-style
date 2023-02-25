@@ -3,8 +3,8 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="footer-container">Footer
-      <h1>© 2022 Utku Enes Baki</h1>
+    <div className="footer-container">
+      <h1 className='h1-footer'>© 2022 Utku Enes Baki</h1>
     </div>
   )
 }
