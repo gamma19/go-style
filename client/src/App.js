@@ -7,9 +7,11 @@ import About from './components/pages/about/About'
 import Contact from './components/pages/contact/Contact'
 import Login from './components/pages/login/Login'
 import Signup from './components/pages/signup/Signup'
+import Men from './components/pages/men/Men'
+import Women from './components/pages/women/Women'
 
 
-import React, { useEffect, useState} from "react"
+import React, {useEffect, useState} from "react"
 
 
 
@@ -39,6 +41,8 @@ function App() {
           <Route path="/contact" element={<Contact />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="/signup" element={<Signup />}/>
+          <Route path="/men" element={<Men />}/>
+          <Route path="/women" element={<Women />}/>
         </Routes>
     </BrowserRouter>
   );

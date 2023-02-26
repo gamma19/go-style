@@ -1,0 +1,20 @@
+.slide-page{
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+
+.slide-page .swiper{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.slide-page .card-img{
+    max-width:100%;
+    max-height:100%;
+    margin-left: 18%;
+}
