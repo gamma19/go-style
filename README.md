@@ -1,2 +1,2 @@
 # go-style
- Fashion e-commerce website.
+ Fashion themed e-commerce website.
