@@ -4,4 +4,6 @@
     left: 8%;
     height: 28%;
     width: 28%;
+    display: flex;
 }
+
