@@ -24,14 +24,6 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/services">
-                        <button className='nav-btn'>Services</button>
-                    </Link>
-                </li>
-                <li>
-                    <button className='nav-btn'>News</button>
-                </li>
-                <li>
                     <Link to="/">
                         <img className='nav-img-container' src={logo} alt='GoStyle'></img>
                     </Link>

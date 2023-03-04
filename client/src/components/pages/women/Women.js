@@ -1,46 +1,49 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
+import React from 'react'
+import Box from '@mui/material/Box'
 import './Women.css'
 
-export default function Display() {
+function Women() {
   return (
-    <div className='flexbox' style={{ width: '100%' }}>
-      <Box
-        sx={{
-          display: 'flex',
-          m: 1,
-          p: 1,
-          bgcolor: (theme) => (theme.palette.mode === 'dark' ? '#101010' : '#fff'),
-          color: (theme) =>
-            theme.palette.mode === 'dark' ? 'grey.300' : 'grey.800',
-          border: '1px solid',
-          borderColor: (theme) =>
-            theme.palette.mode === 'dark' ? 'grey.800' : 'grey.300',
-          borderRadius: 2,
-          fontSize: '0.875rem',
-          fontWeight: '700',
-        }}
-      >
-        {"I'm a flexbox container that uses flex!"}
-      </Box>
-      <Box
-        sx={{
-          display: 'inline-flex',
-          m: 1,
-          p: 1,
-          bgcolor: (theme) => (theme.palette.mode === 'dark' ? '#101010' : '#fff'),
-          color: (theme) =>
-            theme.palette.mode === 'dark' ? 'grey.300' : 'grey.800',
-          border: '1px solid',
-          borderColor: (theme) =>
-            theme.palette.mode === 'dark' ? 'grey.800' : 'grey.300',
-          borderRadius: 2,
-          fontSize: '0.875rem',
-          fontWeight: '700',
-        }}
-      >
-        {"I'm a flexbox container that uses inline-flex!"}
-      </Box>
+    <>
+    <Box className="women-filter" bgcolor='white' flex={1}>
+      <h3>Filter</h3>
+    </Box>
+    <Box className="women-product-container" bgcolor='white' flex={2}>
+    <div class="container page-wrapper">
+  <div class="page-inner">
+    <div class="row">
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt=""/>
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">I feel like Pablo</span>
+              <span class="p-company">Yeezy</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+            <span class="price">$120</span>
+            <span class="add-to-cart">
+              <span class="txt">Add in cart</span>
+            </span>
+          </a>
+        </div>
+      </div>
     </div>
-  );
+  </div>
+</div>
+      <h3 className='h3'>Products</h3>
+    </Box>
+    </>
+  )
 }
+
+export default Women

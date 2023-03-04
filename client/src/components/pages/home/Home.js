@@ -12,6 +12,7 @@ import { EffectCards } from "swiper";
 const Home = () => {
   return (
     <>
+    <div className="main-content">
     <div className="cards">
     <Swiper
         effect={"cards"}
@@ -44,7 +45,46 @@ const Home = () => {
         
         </article>
       </article>
-    </>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+  <div className = "card1">
+    <img src={require('../home/women-stock.jpg')} alt=""/>
+    <div class="card-content">
+      <h2>
+        Women
+      </h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta odio aut hic.
+      </p>
+      <a href="/women" className="button">
+        Find out more
+      </a>
+    </div>
+  </div>
+
+
+  <div className = "card2">
+    <img src={require('../home/men-stock.jpg')} alt=""/>
+    <div class="card-content">
+      <h2>
+        Men
+      </h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta odio aut hic.
+      </p>
+      <a href="/men" className="button">
+        Find out more
+      </a>
+    </div>
+  </div>
+  </div>
+  </>
+  
   )
 }
 
