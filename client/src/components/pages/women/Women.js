@@ -20,7 +20,7 @@ function Women() {
               <span class="p-name">I feel like Pablo</span>
               <span class="p-company">Yeezy</span>
             </div>
-            <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+            <div class="a-size">Available sizes :: <span class="size">S , M , L , XL</span></div>
           </div>
         </div>
 
