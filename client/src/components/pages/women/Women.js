@@ -10,7 +10,8 @@ function Women() {
     </Box>
     <Box className="women-product-container" bgcolor='white' flex={2}>
     <div class="container page-wrapper">
-  <div class="page-inner">
+    <div class="page-inner">
+    <h3 className='h3'>Products</h3>
     <div class="row">
       <div class="el-wrapper">
         <div class="box-up">
@@ -40,7 +41,6 @@ function Women() {
     </div>
   </div>
 </div>
-      <h3 className='h3'>Products</h3>
     </Box>
     </>
   )
