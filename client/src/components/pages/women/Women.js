@@ -6,14 +6,15 @@ function Women() {
   return (
     <>
     <Box className="women-filter" bgcolor='white' flex={1}>
-      <h3>Filter</h3>
+      <div className='filter-inner-box'>
+
+      </div>
     </Box>
     <Box className="women-product-container" bgcolor='white' flex={2}>
-    <div class="container page-wrapper">
-    <div class="page-inner">
-    <h3 className='h3'>Products</h3>
-    <div class="row">
-      <div class="el-wrapper">
+      <div class="container page-wrapper">
+      <div class="page-inner">
+      <div class="row">
+        <div class="el-wrapper">
         <div class="box-up">
           <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt=""/>
           <div class="img-info">
@@ -38,6 +39,8 @@ function Women() {
           </a>
         </div>
       </div>
+
+      
     </div>
   </div>
 </div>

@@ -25,6 +25,14 @@ html{
     text-align: center;
 }
 
+.filter-inner-box{
+  position: relative;
+  top: 100px;
+  left: 0px;
+  height: 75px;
+  width: 30px;
+}
+
 
 .d-flex {
   display: -webkit-box;
@@ -63,7 +71,10 @@ body {
 }
 
 .el-wrapper {
-  width: 360px;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  width: 330px;
   padding: 15px;
   margin: 15px auto;
   background-color: #fff;
